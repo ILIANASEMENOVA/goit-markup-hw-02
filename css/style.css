@@ -30,7 +30,7 @@ body {
 .section-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1,11;
   text-align: center;
   text-transform: capitalize;
   color: var(--title-text-color);
@@ -38,7 +38,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1,11;
   text-transform: capitalize;
   color: var(--title-text-color);
 }
@@ -54,7 +54,7 @@ body {
   font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1,17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
@@ -67,7 +67,7 @@ body {
 .menu-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1,5;
   color: var(--title-text-color);
 }
 .menu-item:hover,
@@ -79,7 +79,8 @@ body {
 .contact-nav-list {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1,5;
+  font-style: normal;
 }
 .email-link:hover,
 .email-link:focus {
@@ -98,22 +99,30 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1,07;
   text-align: center;
+  color: var(--primary-white-color);
 }
 /* hero button */
 .modal-open-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1,5;
   align-items: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  color: var(--primary-white-color);
+background-color: var(--accent-color);
 }
-/*  */
+/* sections */
+.title-benefits{font-weight: 500;
+  font-size: 20px;
+  line-height: 1,2;
+  color: #2E2F42;}
 .background-section-our-team {
-  color: var(--secondary-background-color);
+  background-color: var(--secondary-background-color);
 }
+.cards-team{ background-color: var(--primary-white-color);}
 /* buttons */
 .button {
   font-weight: 500;
