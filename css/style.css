@@ -150,6 +150,7 @@ background-color: #4d5ae5;
   color: #fff;
   background-color: #404bbf;
 }
+.title-work-examples{}
 /* footer */
 .logo-footer{color: #F4F4FD;}
 .text-footer{color: #F4F4FD;} 
@@ -163,3 +164,4 @@ background-color: #4d5ae5;
     line-height: 1,2;}
     .work-examples-link:hover,
     .work-examples-link:focus{color: #404bbf;}
+    .work{color: #434455;}
