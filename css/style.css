@@ -70,12 +70,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,5;
-  color: #2e2f42;
+  color: #434455;
 }
 .menu-item:hover,
 .menu-item:focus {
   color: #404bbf;
 }
+.primary:hover,
+.primary:focus{color: #404bbf;}
 
 /* contact */
 .contact-nav-list {
