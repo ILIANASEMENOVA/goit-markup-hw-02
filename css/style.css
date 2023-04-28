@@ -40,6 +40,7 @@ body {
   font-size: 36px;
   line-height: 1,11;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: #2E2F42;
 }
 .text {
@@ -54,9 +55,10 @@ body {
   font-family:"Raleway", sans-serif ;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1,17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #4d5ae5;
 
 }
@@ -68,11 +70,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,5;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .menu-item:hover,
 .menu-item:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* contact */
@@ -81,14 +83,15 @@ body {
   font-size: 16px;
   line-height: 1,5;
   font-style: normal;
+  color: #434455;
 }
 .email-link:hover,
 .email-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .tel-link:hover,
 .tel-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 /* hero */
 .hero-solutions,
@@ -101,10 +104,11 @@ body {
   font-size: 56px;
   line-height: 1,07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 /* hero button */
-.modal-open-button {
+.modal-open-button {font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1,5;
@@ -114,6 +118,8 @@ body {
   color: #fff;
 background-color: #4d5ae5;
 }
+.modal-open-button:hover,
+.modal-open-button:focus{ background-color: #404BBF;}
 /* sections */
 .title-benefits{font-weight: 500;
   font-size: 20px;
@@ -150,3 +156,5 @@ background-color: #4d5ae5;
   .work-examples .text{ font-weight: 400;
     font-size: 16px;
     line-height: 1,2;}
+    .work-examples-link:hover,
+    .work-examples-link:focus{color: #404bbf;}
