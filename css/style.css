@@ -70,6 +70,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1,5;
+  font-style: normal;
   color: #434455;
 }
 .menu-item:hover,
@@ -78,7 +79,8 @@ body {
 }
 .primary:hover,
 .primary:focus{color: #404bbf;}
-
+.menu-item-link{color: #2e2f42;
+  line-height: 1.5;}
 /* contact */
 .contact-nav-list {
   font-weight: 400;
@@ -131,6 +133,7 @@ background-color: #4d5ae5;
   background-color: #F4F4FD;
 }
 .cards-team{ background-color:#fff;}
+
 /* buttons */
 .button {
   font-family: "Roboto", sans-serif;
