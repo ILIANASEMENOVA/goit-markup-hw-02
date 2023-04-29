@@ -182,7 +182,7 @@ body {
 .work-examples .text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 .work-examples-link:hover,
 .work-examples-link:focus {
@@ -190,12 +190,12 @@ body {
 }
 .work {
   color: #434455;
-  line-height: 1.5;
+ 
 }
 .title-work-examples {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
