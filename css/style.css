@@ -150,11 +150,7 @@ background-color: #4d5ae5;
   color: #fff;
   background-color: #404bbf;
 }
-.title-work-examples{font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2E2F42;}
+
 /* footer */
 .logo-footer{color: #F4F4FD;}
 .text-footer{color: #F4F4FD;} 
@@ -170,3 +166,8 @@ background-color: #4d5ae5;
     .work-examples-link:focus{color: #404bbf;}
     .work{color: #434455;
       line-height: 1.5;}
+      .title-work-examples{font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;}
