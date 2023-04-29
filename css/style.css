@@ -32,6 +32,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2E2F42;
 }
@@ -163,4 +164,5 @@ background-color: #4d5ae5;
     line-height: 1.2;}
     .work-examples-link:hover,
     .work-examples-link:focus{color: #404bbf;}
-    .work{color: #434455;}
+    .work{color: #434455;
+      line-height: 1.5;}
