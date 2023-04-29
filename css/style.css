@@ -77,8 +77,8 @@ body {
 .menu-item:focus {
   color: #404bbf;
 }
-.primary:hover,
-.primary:focus{color: #404bbf;}
+.menu-item-link:hover,
+.menu-item-link:focus{color: #404bbf;}
 .menu-item-link{color: #2e2f42;
   line-height: 1.5;}
 /* contact */
@@ -126,6 +126,7 @@ background-color: #4d5ae5;
 .title-benefits{font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2E2F42;}
 .background-section-our-team {
   background-color: #F4F4FD;
