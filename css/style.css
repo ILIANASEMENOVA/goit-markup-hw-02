@@ -30,7 +30,7 @@ body {
 .section-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,11;
+  line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: #2E2F42;
@@ -38,7 +38,7 @@ body {
 .title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,11;
+  line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2E2F42;
@@ -46,7 +46,7 @@ body {
 .text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
 }
 
 /* header */
@@ -69,7 +69,7 @@ body {
 .menu-item {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   font-style: normal;
   color: #434455;
 }
@@ -85,18 +85,16 @@ body {
 .contact-nav-list {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   font-style: normal;
   color: #434455;
 }
-.email-link:hover,
-.email-link:focus {
-  color: #404bbf;
-}
-.tel-link:hover,
-.tel-link:focus {
-  color: #404bbf;
-}
+.contacts-link:hover,
+.contacts-link:focus 
+{ color: #404bbf;}
+.contacts-link{line-height: 1.5;
+color:  #434455;}
+.contact{ font-style: normal;}
 /* hero */
 .hero-solutions,
 .footer-content {
@@ -106,7 +104,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1,07;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #fff;
@@ -115,7 +113,7 @@ body {
 .modal-open-button {font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -127,7 +125,7 @@ background-color: #4d5ae5;
 /* sections */
 .title-benefits{font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;
+  line-height: 1.2;
   color: #2E2F42;}
 .background-section-our-team {
   background-color: #F4F4FD;
@@ -139,7 +137,7 @@ background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   display: flex;
   letter-spacing: 0.04em;
   color: #4d5ae5;
@@ -158,10 +156,10 @@ background-color: #4d5ae5;
 /* portfolio */
 .work-examples .title{ font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;}
+  line-height: 1.2;}
   .work-examples .text{ font-weight: 400;
     font-size: 16px;
-    line-height: 1,2;}
+    line-height: 1.2;}
     .work-examples-link:hover,
     .work-examples-link:focus{color: #404bbf;}
     .work{color: #434455;}
